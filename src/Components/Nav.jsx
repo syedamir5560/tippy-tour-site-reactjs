@@ -10,8 +10,8 @@ const Nav = () => {
     };
 
     return (
-        <main className='relative'>
-            <nav className="bg-gray-800 rounded top-5 mx-[2%] left-0 w-[95%] fixed navbarshadow">
+        <main className='relative z-10'>
+            <nav className="bg-gray-800 rounded top-5 mx-[2%] left-0 w-[95%] fixed navbarshadow" >
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
                     <div className="flex items-center justify-between h-20">
                         <div className="flex-shrink-0">
@@ -41,8 +41,8 @@ const Nav = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu" >
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center mobile">
+                <div className={`${isOpen ? 'block' : 'hidden'} md:hidden z:20  `} id="mobile-menu" >
+                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center mobile z-10">
 
                         <NavLink to="/" exact activeClassName="text-white" className="text-[1.2rem] text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"> <i class="fa-solid fa-house mx-2"></i>Home</NavLink>
                         <NavLink to="/about" activeClassName="text-white" className="text-[1.2rem] text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"><i class="fa-solid fa-circle-info    mx-2"></i>About</NavLink>
