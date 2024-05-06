@@ -8,7 +8,7 @@ import Service from './Pages/Service'
 import Nav from './Components/Nav'
 import Login from './Pages/Login'
 import Footer from './Components/Footer'
-import "./App.css"
+import './App.css'
 
 function App() {
   return (

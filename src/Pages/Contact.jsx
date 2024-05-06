@@ -15,16 +15,16 @@ function Contact() {
         <h1 className="text-4xl text-center font-bold mb-8 font-serif">Contact Us</h1>
         <form className='mx-10 '>
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">Name</label>
-            <input type="text" id="name" name="name" className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500" />
+            <label htmlFor="name" className="block text-gray-700 font-semibold mb-2"  >Name</label>
+            <input type="text" id="name" name="name" placeholder='Enter Your Name..' className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500" />
           </div>
           <div className="mb-4">
             <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email</label>
-            <input type="email" id="email" name="email" className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500" />
+            <input type="email" id="email" placeholder='Enter Your Email..' name="email" className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500" />
           </div>
           <div className="mb-4">
             <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Message</label>
-            <textarea id="message" name="message" rows="5" className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"></textarea>
+            <textarea id="message" name="message" placeholder='Message' rows="5" className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"></textarea>
           </div>
           <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-md block w-52 mx-auto">Send...</button>
 

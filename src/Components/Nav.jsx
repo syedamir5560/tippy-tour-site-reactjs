@@ -20,7 +20,7 @@ const Nav = () => {
                         <div className="flex items-center">
 
                             <div className="hidden md:block ">
-                                <div className="ml-10 flex items-baseline space-x-4 font-bold font-mono ">
+                                <div className="ml-10  flex items-center  space-x-4 font-bold font-mono ">
                                     <NavLink to="/" exact activeClassName="text-white" className="text-[1.2rem] text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm "><i class="fa-solid fa-house mx-1"></i> Home</NavLink>
                                     <NavLink to="/about" activeClassName="text-white" className="text-[1.2rem] text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"><i class="fa-solid fa-circle-info mx-1"></i> About</NavLink>
                                     <NavLink to="/services" activeClassName="text-white" className="text-[1.2rem] text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"><i class="fa-solid fa-briefcase mx-1"></i> Services</NavLink>
