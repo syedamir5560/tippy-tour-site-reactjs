@@ -1,13 +1,12 @@
 import React from 'react'
 import Hero from '../Components/Hero'
+import Destination from '../Components/Destination'
 
 function Home() {
   return (
     <div>
-      <Hero
-       
-      />
-
+      <Hero />
+      <Destination />
     </div>
   )
 }
