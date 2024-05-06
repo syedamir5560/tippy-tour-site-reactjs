@@ -7,7 +7,6 @@ import Contact from './Pages/Contact'
 import Service from './Pages/Service'
 import Nav from './Components/Nav'
 import Login from './Pages/Login'
-import Trip from './Components/Trip'
 import Footer from './Components/Footer'
 import "./App.css"
 
@@ -15,15 +14,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Nav/>
-          <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-            <Route path='/services' element={<Service/>}/>
-            <Route path='/login' element={<Login/>}/>
-          </Routes>
-       <Footer/>
+        <Nav />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/services' element={<Service />} />
+          <Route path='/login' element={<Login />} />
+        </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
